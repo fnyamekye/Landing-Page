@@ -1,0 +1,438 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header{
+  margin-top: 30px;
+}
+
+.navbar-container{
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+}
+
+.title-img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 110px;
+  height: 35px;
+}
+
+.logo{
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links-container{
+  list-style: none;
+  display: flex;
+  color: grey;
+
+}
+
+.nav-links{
+  padding: 0 20px;
+  font-size: 17px;
+  font-weight: 300;
+  transform: color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.productLinks{
+  display: flex;
+  align-items: center;
+
+}
+
+.nav-links:hover{
+  color: black
+}
+.arrowDown-icon{
+  color: grey;
+}
+.arrowDown-icon:hover{
+  color: black;
+}
+.tryNow-button{
+  padding: 8px 15px;
+  border-radius: 3px;
+  border: none;
+  background-color: #123F38; 
+  color: white;
+  font-size: medium;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.5s ease-in-out background;
+}
+
+.tryNow-button:hover{
+  background-color: #3d7570;
+}
+
+main{
+  margin-top: 30px;
+  padding: 50px;
+  display: flex;
+
+}
+
+.first-main-container{
+  width: 40%;
+  height: 100%;
+}
+
+
+.web3-section{
+  width: 70%;
+  margin: 0 8%;
+}
+
+.web3-title{
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 20px;
+}
+
+.web3-para{
+  margin-top: 40px;
+  color: gray;
+  font-weight: 100;
+  font-family: serif;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.getStarted-button{
+  border: 1.6px solid black;
+  border-right:1.6px solid rgb(133, 124, 124) ;
+  border-bottom:1.6px solid rgb(133, 124, 124) ;
+  padding: 15px 25px;
+  font-size: 17px;
+  font-weight: 550;
+  margin-right: 10px;
+  background-color: white;
+  transition: background 0.5s ease-in-out, color 0.4s ease-in-out;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+  
+}
+.getStarted-button:hover{
+  background-color: #3d7570;
+  color: aliceblue;
+}
+.learnMore-button{
+  border: none;
+  background-color: inherit;
+  padding: 15px 25px;
+  font-size: 17px;
+  font-weight: 550;
+  cursor: pointer;
+}
+.viewDetails{
+  color: gray;
+  font-size: 14px;
+  transition: 500ms ease-in-out color;
+  cursor: pointer;
+}
+
+.viewDetails:hover{
+  color: black;
+}
+
+.decorationButton{
+  border: 1.6px solid black;
+  padding: 15px 25px;
+  width: 132px;
+  height: 43px;
+  font-size: 17px;
+  font-weight: 520;
+  background-color: inherit;
+  margin-right: 10px;
+  cursor: text;
+  position: relative;
+  bottom: 30px;
+  left: 20px;
+  z-index: 0;
+
+
+}
+
+
+.second-main-container{
+  margin-left: 7%;
+  border: 2px solid black;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  height: 630px;
+}
+
+.sales-container{
+  display: flex;
+  flex-direction: column;
+  border: 2px black solid;
+  border-bottom: 2px grey solid;
+  border-left: 2px gray solid;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 550px;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  z-index: 2;
+  background-color: white;
+
+}
+
+
+
+.content-container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  
+}
+
+
+.icons-indi-container{
+  list-style: none;
+  padding: 1px;
+  margin-right: 10px;
+}
+.icons-indi-container li{
+  height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  
+}
+.icons-indi-container li i{
+font-size: 20px;
+margin-bottom: 3px;
+}
+.select-indicator{
+  height: 2px;
+  width: 70%;
+  background: linear-gradient(45deg,#68e2d8,#4aafa7);
+  display: none;
+}
+.show{
+  display: block;
+}
+.hl{
+  width: 2px;
+  border-radius: 5px;
+  height: 100%;
+  background-color: grey;
+  margin-right: 10px;
+  
+}
+
+.main-sales-container{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  padding-bottom: 35px;
+}
+
+.convertion-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.convertion{
+  width: 42%;
+  display: flex;
+  justify-content: space-between;
+}
+.nft-img{
+  height: 56px;
+  width: 60px;
+  border: none;
+}
+.amount{
+  margin-bottom: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.convertion-unit{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 12px;
+  font-weight: 550;
+  color: grey;
+}
+
+.tansaction-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.trans-button{
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.send-button{
+  background-color: #123F38;
+  color: white;
+  border: 1px solid black;
+  font-weight: 500;
+  transition: 500ms ease-in-out background;
+}
+.send-button:hover{
+  background-color: #3d7570;
+}
+.depo-button{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+  font-weight: 500;
+}
+
+.view-all{
+  color: grey;
+  font-size: 12px;
+  cursor: pointer;
+  transform: 500ms ease-in-out color;
+}
+.view-all:hover{
+  color: rgb(3, 3, 3);
+}
+
+.date-container{
+  width: 69%;
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: 500;
+  color: #123F38;
+  margin-bottom: 15px;
+}
+.coins-overlay{
+   width: 100%;
+   display: flex;
+}
+
+.coins-container{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin-class{
+  display: flex;
+}
+
+.coin-img{
+  height: 50px;
+  width: 50px;
+  border: none;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.coin-points{
+  font-weight: 600;
+  color: #123F38;
+}
+.first-coin-points{
+  margin-right: 10px;
+}
+
+.coin-specification{
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+/* scan- code -container */
+.code-scan-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 125%;
+
+}
+/* code container */
+.code-container{
+  width: 450px;
+  padding: 20px;
+  padding-right: 30px;
+  background-color: #123F38;
+  position: relative;
+  bottom: 70px;
+  right: 45px;
+  z-index: 3;
+}
+.ordered-list-code{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  counter-reset: li;
+}
+
+.ordered-list-code li::before{
+  content: counter(li);
+
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
+  margin-right: 15px;
+}
+.ordered-list-code li{
+  counter-increment: li;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: whitesmoke;
+}
+.code-variable{
+  color: rgb(218, 135, 27);
+}
+
+.scan-container{
+  display: flex;
+  flex-direction: column;
+  background-color: #F2DA70;
+  border: 1px solid black;
+  align-items: center;
+  padding: 15px 10px;
+  height: 200px;
+  width: 180px;
+  position: relative;
+  bottom: 70px;
+  right: 45px;
+  z-index: 3;
+}
+
+.api-copy{
+  background-color: #F2DA70;
+  border: 1px solid black;
+  font-weight: 500;
+  padding: 15px 25px;
+  width: 45%;
+  position: relative;
+  bottom: 95px;
+  left: 15px;
+  z-index: 3;
+}
